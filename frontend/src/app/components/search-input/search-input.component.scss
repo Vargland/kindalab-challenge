@@ -1,0 +1,16 @@
+.search-input {
+    padding: 25px;
+    z-index: 999;
+
+    &__container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__search_box {
+        display: flex;
+        gap: 5px;
+        margin-top: 10px;
+    }
+}

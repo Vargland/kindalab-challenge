@@ -1,0 +1,79 @@
+{
+  "hash": "340b5765",
+  "configHash": "3308047a",
+  "lockfileHash": "6871bab7",
+  "browserHash": "161639b6",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "5c829ba2",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "0d0b173e",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "0077fc79",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "b85f98d2",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "fb2339e3",
+      "needsInterop": false
+    },
+    "@asymmetrik/ngx-leaflet": {
+      "src": "../../../../../node_modules/@asymmetrik/ngx-leaflet/fesm2022/asymmetrik-ngx-leaflet.mjs",
+      "file": "@asymmetrik_ngx-leaflet.js",
+      "fileHash": "040b182f",
+      "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../../../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "ffa34a97",
+      "needsInterop": true
+    },
+    "rxjs": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "8693c89f",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-V54HQVUX": {
+      "file": "chunk-V54HQVUX.js"
+    },
+    "chunk-ZX2KHGJW": {
+      "file": "chunk-ZX2KHGJW.js"
+    },
+    "chunk-L3VJWFEM": {
+      "file": "chunk-L3VJWFEM.js"
+    },
+    "chunk-ERDGETCF": {
+      "file": "chunk-ERDGETCF.js"
+    },
+    "chunk-BE3BH5CT": {
+      "file": "chunk-BE3BH5CT.js"
+    },
+    "chunk-WSA2QMXP": {
+      "file": "chunk-WSA2QMXP.js"
+    },
+    "chunk-ASLTLD6L": {
+      "file": "chunk-ASLTLD6L.js"
+    }
+  }
+}

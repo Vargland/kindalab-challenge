@@ -1,0 +1,16 @@
+<div class="search-input">
+    <div class="search-input__container">
+            <label class="search-input__label"> What do you want to eat? </label>
+            <div class="search-input__search_box">
+                <input
+                    #inputValue
+                    type="search"
+                    name="search-box"
+                    class="search-input__input"
+                    placeholder="Search"
+                    (keyup.enter)="handlerOnSearch()"
+                >
+                <button class="search-input__button" (click)="handlerOnSearch()"> Search </button>
+            </div>
+    </div>    
+</div>

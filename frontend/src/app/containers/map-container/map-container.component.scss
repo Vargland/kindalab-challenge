@@ -1,0 +1,17 @@
+#map {
+    height: 100vh;
+}
+
+.map-container {
+    border: solid black 1px;
+    width: 100%;
+    position: relative;
+
+    &__map-content {
+        width: 100%;
+
+        div.leaflet-container {
+            width: 100%;
+        }
+    }
+}
