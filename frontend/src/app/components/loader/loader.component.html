@@ -1,1 +1,8 @@
-<p>loader works!</p>
+<div *ngIf="loader.isLoading$ | async">
+    <div class="loader-overlay" >
+        <div class="loader">
+            <img src="https://kindalab.co/kindalab/static/kindalab/images/logo/header_logo.svg" alt="">
+            <span> SEARCHING </span>
+        </div>
+    </div>
+</div>
