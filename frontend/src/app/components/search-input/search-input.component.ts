@@ -2,7 +2,6 @@ import { Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular
 @Component({
   selector: 'app-search-input',
   standalone: true,
-  imports: [],
   templateUrl: './search-input.component.html',
   styleUrl: './search-input.component.scss'
 })
