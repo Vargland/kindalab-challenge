@@ -57,10 +57,16 @@ export default class MapContainerComponent implements OnChanges, AfterViewInit {
             this.map.removeLayer(this.markers)
         }
 
-        foodResponse.forEach(({ address, latitude, longitude, fooditems }) => {
+        foodResponse.forEach(({ address, applicant, latitude, longitude, fooditems }) => {
             markers.push(
                 L.marker([Number(latitude), Number(longitude)],
-                    { icon: this.getIcon() }).bindPopup(`<b>${address}</b> <br> ${fooditems}`)
+                    { icon: this.getIcon() }).bindPopup(
+                        `
+                        <b>${applicant}</b><br>
+                        <b>${address}</b><br>
+                        <span>${fooditems}<span>
+                    `
+                    )
             )
         })
 
